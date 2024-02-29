@@ -1,0 +1,31 @@
+*{
+    /* text-align: center; */
+    text-decoration: none;
+    /* list-style-type: none; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+#title:hover{
+    background-color: black;
+    color:cornflowerblue;
+    transition: ease-in-out  0.5s ;
+}
+
+#tags{
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 20px;
+}
